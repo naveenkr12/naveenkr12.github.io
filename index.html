@@ -577,7 +577,7 @@
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
       <a href="#research">Research</a>
-      <a href="#project">Project</a>
+      <a href="#project">Projects</a>
       <a href="#skills">Skills</a>
     </nav>
   </div>
@@ -831,7 +831,7 @@
   </section>
 
   <section class="block reveal" id="project">
-    <div class="sec-head"><span class="sec-num">04</span><h2 class="sec-title">Project</h2></div>
+    <div class="sec-head"><span class="sec-num">04</span><h2 class="sec-title">Projects</h2></div>
     <div class="role">
       <div class="role-head">
         <div class="role-title"><a href="https://drive.google.com/file/d/1XxH1tQbsnF7SLKW5u0CXF8Fe0tweWnEm/view?usp=sharing" target="_blank" rel="noopener" style="text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;">Implied Volatility Regime-Conditioned Long Strangle with Volatility Surface Signal Filtering ↗</a></div>
@@ -845,6 +845,16 @@
         <div class="stat"><div class="stat-val">10.1</div><div class="stat-label">Sortino</div></div>
         <div class="stat"><div class="stat-val">2.27</div><div class="stat-label">profit factor</div></div>
       </div>
+    </div>
+
+    <div class="role">
+      <div class="role-head">
+        <div class="role-title">Market-Making Agent for Prediction Markets Under Adverse Selection and Jump Risk</div>
+      </div>
+      <div class="role-sub"><span>Capstone &mdash; in progress</span><span class="role-dates">Sept 2026&nbsp;&ndash;&nbsp;Present</span></div>
+      <ul class="bullets">
+        <li>Building a closed-form optimal bid/ask quoting strategy (HJB-derived stochastic control, prediction-market price modeled as a transformed latent belief diffusion) as a ground-truth benchmark, then breaking its core noise-trader assumption by adding informed-arrival intensity calibrated to Kyle&rsquo;s &lambda; from 41.6M real trades (Bartlett &amp; O&rsquo;Hara) and jump-diffusion dynamics calibrated to a Kalshi structural volatility study; training an RL market maker on the same dynamics for comparison.</li>
+      </ul>
     </div>
   </section>
 
